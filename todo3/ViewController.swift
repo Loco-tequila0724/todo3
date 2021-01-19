@@ -25,7 +25,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
 
 
     @IBAction func addBtnAction(_ sender: Any) {
-        let alertController = UIAlertController(title: "ToDo追加", message: "ToDoを入力してください。。。。", preferredStyle: UIAlertController.Style.alert)
+        let alertController = UIAlertController(title: "ToDo追加", message: "ToDoを入力してください。", preferredStyle: UIAlertController.Style.alert)
         alertController.addTextField(configurationHandler: nil)
 
         let okAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.default) { (acrion: UIAlertAction) in
